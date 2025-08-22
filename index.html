@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Meta -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta />
+    <title>Weather App</title>
+    <meta name="title" content="Weather App" />
+    <meta name="description" content="A simple weather application." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Custom JS -->
+
+    <script src="./assets/js/app.js" type="module"></script>
+    <script src="./assets/js/route.js" type="module"></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.png"
+            width="364"
+            height="58"
+            alt="logo"
+          />
+        </a>
+
+        <div class="search-view" data-search-view>
+          <div class="search-wrapper">
+            <input
+              type="search"
+              name="search"
+              placeholder="Search city ..."
+              autocomplete="off"
+              class="search-field"
+              data-search-field
+            />
+          </div>
+
+          <span class="m-icon">search</span>
+        </div>
+
+        <button
+          class="icon-btn leading-icon has-state"
+          aria-label="close search"
+          data-search-toggler
+        >
+          <span class="m-icon">arrow_back</span>
+        </button>
+      </div>
+    </header>
+  </body>
+</html>
