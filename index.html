@@ -44,7 +44,7 @@
             alt="logo"
           />
         </a>
-        <div class="search-view" data-search-view>
+        <div class="search-view active" data-search-view>
           <div class="search-wrapper">
             <input
               type="search"
@@ -339,7 +339,7 @@
 
           <!-- Hourly Forecast -->
 
-          <div
+          <section
             class="section hourly-forecast"
             aria-label="hourly forecast"
             data-hourly-forecast
@@ -563,9 +563,46 @@
                 </li>
               </ul>
             </div>
-          </div>
+            <!-- Footer -->
+        <footer class="footer">
+          <p class="body-3">
+            Copyright &copy; 2025. All rights reserved by NiloyTheSpd
+          </p>
+          <p class="body-3">
+            Powered by <a
+              href="https://openweathermap.org/api"
+              title="Free OpenWeather API"
+              target="_blank"
+              rel="noopener"
+              >
+              <img src="./assets/images/openweather.png" 
+              width="150" height="30"
+              loading="lazy"
+              alt="OpenWeather">
+          </p>
+        </footer>
+          </section>
         </div>
+
+        <div class="loading" data-loading></div>
+        
       </article>
     </main>
+
+<!-- 404 Section -->
+
+<section class="error-content" data-error-content>
+
+<h2 class="heading">404</h2>
+  <p class="body-1">Page Not Found!</p>
+  <a href="#" class="btn-primary">
+    <span class="span">Go Home</span>
+  </a>
+
+
+</section>
+
+
+
   </body>
 </html>
